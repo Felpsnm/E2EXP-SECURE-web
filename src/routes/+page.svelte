@@ -5,7 +5,7 @@
 <!--Banner Bem-Vindo!-->
 <div class="flex justify-center mx-auto max-w-7xl bg-black relative">
   <img
-    src="..\Banner.jpg"
+    src="/Banner.jpg"
     alt="Background showing security dashboard"
     class="size-full w-full object-cover opacity-70"
   />
@@ -24,7 +24,7 @@
   <div class="space-y-5 py-8">
     <div class="flex gap-16 ">
       <button on:click={() => window.location.href = 'https://e2exp-finance.github.io'} class="flex-wrap cursor-pointers">
-        <img src="..\Finance.png" alt="" class="size-full rounded-t-xl border-cisco_skyblue border w-40 h-40">
+        <img src="/Finance.png" alt="" class="size-full rounded-t-xl border-cisco_skyblue border w-40 h-40">
         <div class="relative w-full">
           <div class="absolute inset-0 bg-cisco_skyblue opacity-70 px-5 rounded-b-xl"></div>
           <div class="relative text-white text-sm">
@@ -33,7 +33,7 @@
         </div>
       </button>
       <button on:click={() => window.location.href = 'https://e2exp-dev.github.io'} class="flex-wrap cursor-pointers">
-        <img src="..\Developer.svg" alt="" class="size-full rounded-t-xl border-cisco_skyblue border h-40 w-40">
+        <img src="/Developer.svg" alt="" class="size-full rounded-t-xl border-cisco_skyblue border h-40 w-40">
         <div class="relative w-full">
           <div class="absolute inset-0  bg-cisco_skyblue opacity-70 rounded-b-xl"></div>
           <div class="relative flex-wrap text-white text-sm">
@@ -42,7 +42,7 @@
           </div> 
       </button>
       <button on:click={() => goto("/employee-directory")} class="flex-wrap cursor-pointers">
-        <img src="..\Employee-Directory.svg" alt="" class="size-full rounded-t-xl border-cisco_skyblue border h-40 w-40 p-4">
+        <img src="/Employee-Directory.svg" alt="" class="size-full rounded-t-xl border-cisco_skyblue border h-40 w-40 p-4">
         <div class="relative w-full">
           <div class="absolute inset-0 bg-cisco_skyblue opacity-70 rounded-b-xl"></div>
           <div class="relative flex justify-center text-white text-sm">
@@ -60,49 +60,49 @@
     <h1 class="flex justify-center text-3xl font-sans text-cisco_midnightblue">Soluções</h1>
     <div class="grid grid-cols-4 gap-6 p-6 m-52 justify-start *:border *:border-cisco_darkgray *:rounded-xl *:py-2 *:px-10 *:flex *:flex-col *:justify-center *:items-center"> 
       <button on:click={() => window.location.href = 'https://fmc01.e2exp.local/ui/login'}>
-        <img src="..\icons\secure-firewall.svg" alt="" class="">
+        <img src="/icons/secure-firewall.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Secure Firewall
         </div>
       </button>
       <button on:click={() => window.location.href = 'https://ise01.e2exp.local/admin/login.jsp'}>
-        <img src="..\icons\ise.svg" alt="" class="">
+        <img src="/icons/ise.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Identity Service Engine
         </div>        
       </button>
       <button on:click={() => window.location.href = ''}>
-        <img src="..\icons\endpoint.svg" alt="" class="">
+        <img src="/icons/endpoint.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Secure Endpoint
         </div>        
       </button>
       <button on:click={() => window.location.href = 'https://ise01.e2exp.local/admin/login.jsp'}>
-        <img src="..\icons\duo.svg" alt="" class="">
+        <img src="/icons/duo.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Duo
         </div>        
       </button>
       <button on:click={() => window.location.href = 'https://10.0.9.30/sw-login/'}>
-        <img src="..\icons\network-analytics.svg" alt="" class="">
+        <img src="/icons/network-analytics.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Secure Network Analytics
         </div>        
       </button>
       <button on:click={() => window.location.href = 'https://login.sse.cisco.com/'}>
-        <img src="..\icons\secure-access.svg" alt="" class="">
+        <img src="/icons/secure-access.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Secure Access
         </div>        
       </button>
       <button on:click={() => window.location.href = 'https://login.sse.cisco.com/'}>
-        <img src="..\icons\secure-client.svg" alt="" class="">
+        <img src="/icons/secure-client.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Secure Secure Client
         </div>
       </button>
       <button on:click={() => window.location.href = 'http://10.0.9.195:8000/en-US/account/login?return_to=%2Fen-US%2F'} class="space-y-3">
-        <img src="..\icons\splunk.svg" alt="">
+        <img src="/icons/splunk.svg" alt="">
        
       </button>
     </div>
@@ -114,7 +114,7 @@
   <div class="space-y-5 py-8 mx-16">
     <h1 class="flex justify-center text-3xl font-sans text-cisco_midnightblue">Topologia</h1>
     <div class="border border-cisco_darkgray rounded-xl overflow-hidden">
-      <img src="..\END-TO-END_TOPOLOGY.svg" alt="">
+      <img src="/END-TO-END_TOPOLOGY.svg" alt="">
     </div>
   </div>
 </div>
@@ -127,7 +127,7 @@
       <div class="border-2 border-cisco_green" style="box-shadow: 8px 8px 25px rgba(0,0,0,.2)">
         <div class="space-y-3">
           <div class="avatar">
-            <img src="..\Tony_Stark.png" alt="" />
+            <img src="/Tony_Stark.png" alt="" />
           </div>
           <div class="flex justify-center">
             <h1 class="idealizadores_nome">Tony Stark - Analista Financeiro</h1>
@@ -143,7 +143,7 @@ Além de suas habilidades profissionais, Tony é apaixonado por tecnologia e ino
       <div class="border-2 border-cisco_skyblue" style="box-shadow: 8px 8px 25px rgba(0,0,0,.2)">
         <div class="space-y-3">
           <div class="avatar">
-            <img src="..\Tom_Holland.png" alt="" />
+            <img src="/Tom_Holland.png" alt="" />
           </div>
           <div class="flex justify-center">
             <h1 class="idealizadores_nome">Peter Parker - Desenvolvedor de Software</h1>
@@ -171,7 +171,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
       <div class="flex flex-wrap p-4 *:space-y-3 *:w-32">
         <div>
           <div class="avatar">
-            <img src="..\workers\vicazeve.jpg" alt="" />
+            <img src="/workers/vicazeve.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Victor Azevedo</h1>
@@ -179,7 +179,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
         </div>
         <div>
           <div class="avatar">
-            <img src="..\workers\rlaselva.jpg" alt="" />
+            <img src="/workers/rlaselva.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Rafael La Selva</h1>
@@ -187,7 +187,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
         </div>
         <div>
           <div class="avatar">
-            <img src="..\workers\peborges.jpg" alt="" />
+            <img src="/workers/peborges.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Pedro Borges</h1>
@@ -195,7 +195,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
         </div>
         <div>
           <div class="avatar">
-            <img src="..\workers\pecatari.jpg" alt="" />
+            <img src="/workers/pecatari.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Pedro Catarino</h1>
@@ -205,7 +205,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
       <div class="flex flex-wrap *:space-y-3 *:w-28">
         <div>
           <div class="avatar">
-            <img src="..\workers\flcorrea.jpg" alt="" />
+            <img src="/workers/flcorrea.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Flávio Correa</h1>
@@ -213,7 +213,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
         </div>
         <div>
           <div class="avatar">
-            <img src="..\workers\fzamai.jpg" alt="" />
+            <img src="/workers/fzamai.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Fernando Zamai</h1>
@@ -221,7 +221,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
         </div>
         <div>
           <div class="avatar">
-            <img src="..\workers\felipema.jpg" alt="" />
+            <img src="/workers/felipema.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Felipe Martins</h1>
