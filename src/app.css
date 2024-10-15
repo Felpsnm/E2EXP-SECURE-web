@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: 'CiscoSansTT';
+  src: local('CiscoSansTT'), url(../fonts/CiscoSansTTRegular.woff2) format('woff2');
+}
+
+@tailwind utilities;
+
+@layer components {
+  .avatar {
+    @apply size-32 bg-black rounded-full overflow-hidden mx-auto border border-cisco_darkgray;
+  }
+
+  .idealizadores_nome {
+    @apply text-xl leading-none;
+  }
+
+  .users_demo_description {
+    @apply text-sm
+  }
+}
