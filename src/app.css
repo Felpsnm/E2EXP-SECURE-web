@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'CiscoSansTT';
-  src: local('CiscoSansTT'), url(../fonts/CiscoSansTTRegular.woff2) format('woff2');
+  src: local('CiscoSansTT'), url(/fonts/CiscoSansTTRegular.woff2) format('woff2');
 }
 
 @tailwind utilities;
