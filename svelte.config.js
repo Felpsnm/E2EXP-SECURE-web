@@ -1,16 +1,9 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-node';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
+export default {
   kit: {
-    adapter: adapter({
-      // default options are shown
-      pages: 'build',
-      assets: 'build',
-      fallback: 'index.html',
-      precompress: false
-    }),
+    adapter: adapter(),
     // Optional: specify base path if your app is not served from the root
     // paths: {
     //   base: '/your-base-path'
@@ -18,5 +11,3 @@ const config = {
   },
   preprocess: vitePreprocess()
 };
-
-export default config;
