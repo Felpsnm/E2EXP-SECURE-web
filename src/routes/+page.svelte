@@ -4,8 +4,8 @@
 
 <!--Banner Bem-Vindo!-->
 <div class="flex justify-center mx-auto max-w-7xl bg-black relative">
-  <img
-    src="/Banner.jpg"
+  <enhanced:img
+    src="/static/Banner.jpg"
     alt="Background showing security dashboard"
     class="size-full w-full object-cover opacity-70"
   />
@@ -27,7 +27,7 @@
         <img src="/Finance.png" alt="" class="size-full rounded-t-xl border-cisco_skyblue border w-40 h-40">
         <div class="relative w-full">
           <div class="absolute inset-0 bg-cisco_skyblue opacity-70 px-5 rounded-b-xl"></div>
-          <div class="relative text-white text-sm">
+          <div class="relative text-white text-s">
             Financeiro
           </div>
         </div>
@@ -127,7 +127,7 @@
       <div class="border-2 border-cisco_green" style="box-shadow: 8px 8px 25px rgba(0,0,0,.2)">
         <div class="space-y-3">
           <div class="avatar">
-            <img src="/Tony_Stark.png" alt="" />
+            <enhanced:img src="/static/Tony_Stark.png" alt="" />
           </div>
           <div class="flex justify-center">
             <h1 class="idealizadores_nome">Tony Stark - Analista Financeiro</h1>
@@ -143,7 +143,7 @@ Além de suas habilidades profissionais, Tony é apaixonado por tecnologia e ino
       <div class="border-2 border-cisco_skyblue" style="box-shadow: 8px 8px 25px rgba(0,0,0,.2)">
         <div class="space-y-3">
           <div class="avatar">
-            <img src="/Tom_Holland.png" alt="" />
+            <enhanced:img src="/static/Tom_Holland.png" alt="" />
           </div>
           <div class="flex justify-center">
             <h1 class="idealizadores_nome">Peter Parker - Desenvolvedor de Software</h1>
@@ -171,7 +171,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
       <div class="flex flex-wrap p-4 *:space-y-3 *:w-32">
         <div>
           <div class="avatar">
-            <img src="/workers/vicazeve.jpg" alt="" />
+            <enhanced:img src="/static/workers/vicazeve.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Victor Azevedo</h1>
@@ -179,7 +179,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
         </div>
         <div>
           <div class="avatar">
-            <img src="/workers/rlaselva.jpg" alt="" />
+            <enhanced:img src="/static/workers/rlaselva.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Rafael La Selva</h1>
@@ -187,7 +187,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
         </div>
         <div>
           <div class="avatar">
-            <img src="/workers/peborges.jpg" alt="" />
+            <enhanced:img src="/static/workers/peborges.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Pedro Borges</h1>
@@ -195,7 +195,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
         </div>
         <div>
           <div class="avatar">
-            <img src="/workers/pecatari.jpg" alt="" />
+            <enhanced:img src="/static/workers/pecatari.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Pedro Catarino</h1>
@@ -205,7 +205,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
       <div class="flex flex-wrap *:space-y-3 *:w-28">
         <div>
           <div class="avatar">
-            <img src="/workers/flcorrea.jpg" alt="" />
+            <enhanced:img src="/static/workers/flcorrea.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Flávio Correa</h1>
@@ -213,7 +213,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
         </div>
         <div>
           <div class="avatar">
-            <img src="/workers/fzamai.jpg" alt="" />
+            <enhanced:img src="/static/workers/fzamai.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Fernando Zamai</h1>
@@ -221,7 +221,7 @@ Fora do ambiente profissional, Peter é entusiasta da fotografia e da ciência. 
         </div>
         <div>
           <div class="avatar">
-            <img src="/workers/felipema.jpg" alt="" />
+            <enhanced:img src="/static/workers/felipema.jpg" alt="" />
           </div>
           <div>
             <h1 class="idealizadores_nome">Felipe Martins</h1>

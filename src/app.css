@@ -1,12 +1,11 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 @font-face {
   font-family: 'CiscoSansTT';
-  src: local('CiscoSansTT'), url(/fonts/CiscoSansTTRegular.woff2) format('woff2');
+  src: url(/fonts/CiscoSansTTRegular.woff2);
 }
-
-@tailwind utilities;
 
 @layer components {
   .avatar {
