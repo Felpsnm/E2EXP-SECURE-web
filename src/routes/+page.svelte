@@ -23,7 +23,7 @@
 <div class="flex justify-center mx-auto max-w-7xl">
   <div class="space-y-5 py-8">
     <div class="flex gap-16 ">
-      <button on:click={() => window.location.href = 'https://finance.e2exp.local:8080'} class="flex-wrap cursor-pointers">
+      <button on:click={() => window.location.href = 'http://finance.e2exp.local:8080'} class="flex-wrap cursor-pointers">
         <img src="/Finance.png" alt="" class="size-full rounded-t-xl border-cisco_skyblue border w-40 h-40">
         <div class="relative w-full">
           <div class="absolute inset-0 bg-cisco_skyblue opacity-70 px-5 rounded-b-xl"></div>
@@ -32,7 +32,7 @@
           </div>
         </div>
       </button>
-      <button on:click={() => window.location.href = 'https://dev.e2exp.local:8080'} class="flex-wrap cursor-pointers">
+      <button on:click={() => window.location.href = 'http://dev.e2exp.local:8080'} class="flex-wrap cursor-pointers">
         <img src="/Developer.svg" alt="" class="size-full rounded-t-xl border-cisco_skyblue border h-40 w-40">
         <div class="relative w-full">
           <div class="absolute inset-0  bg-cisco_skyblue opacity-70 rounded-b-xl"></div>
