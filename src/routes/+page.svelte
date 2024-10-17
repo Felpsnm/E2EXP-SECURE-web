@@ -129,8 +129,11 @@
           <div class="avatar">
             <enhanced:img src="/static/Tony_Stark.png" alt="" />
           </div>
-          <div class="flex justify-center">
+          <div class="flex justify-center gap-2 items-center">
             <h1 class="idealizadores_nome">Tony Stark - Analista Financeiro</h1>
+            <button on:click={() => window.location.href = 'https://www.instagram.com/'}>
+              <img src="/instagram.png" alt="" class="w-6 h-6">
+            </button>
           </div>
           <div>
             <h1 class="users_demo_description text-pretty">
@@ -145,8 +148,11 @@ Além de suas habilidades profissionais, Tony é apaixonado por tecnologia e ino
           <div class="avatar">
             <enhanced:img src="/static/Tom_Holland.png" alt="" />
           </div>
-          <div class="flex justify-center">
-            <h1 class="idealizadores_nome">Peter Parker - Desenvolvedor de Software</h1>
+          <div class="flex justify-center gap-2 items-center">
+            <h1 class="idealizadores_nome">Peter Parker - Desenvolvedor de Software</h1>     
+            <button on:click={() => window.location.href = 'https://www.instagram.com/'}>
+              <img src="/instagram.png" alt="" class="w-6 h-6">
+            </button>            
           </div>
           <div>
             <h1 class="users_demo_description text-pretty">
