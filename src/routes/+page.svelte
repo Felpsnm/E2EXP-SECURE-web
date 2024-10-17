@@ -23,7 +23,7 @@
 <div class="flex justify-center mx-auto max-w-7xl">
   <div class="space-y-5 py-8">
     <div class="flex gap-16 ">
-      <button on:click={() => window.location.href = 'https://e2exp-finance.github.io'} class="flex-wrap cursor-pointers">
+      <button on:click={() => window.location.href = 'https://finance.e2exp.local:8080'} class="flex-wrap cursor-pointers">
         <img src="/Finance.png" alt="" class="size-full rounded-t-xl border-cisco_skyblue border w-40 h-40">
         <div class="relative w-full">
           <div class="absolute inset-0 bg-cisco_skyblue opacity-70 px-5 rounded-b-xl"></div>
@@ -32,7 +32,7 @@
           </div>
         </div>
       </button>
-      <button on:click={() => window.location.href = 'https://e2exp-dev.github.io'} class="flex-wrap cursor-pointers">
+      <button on:click={() => window.location.href = 'https://dev.e2exp.local:8080'} class="flex-wrap cursor-pointers">
         <img src="/Developer.svg" alt="" class="size-full rounded-t-xl border-cisco_skyblue border h-40 w-40">
         <div class="relative w-full">
           <div class="absolute inset-0  bg-cisco_skyblue opacity-70 rounded-b-xl"></div>
@@ -58,26 +58,26 @@
 <div class="mx-auto max-w-7xl">
   <div class="space-y-5 py-8">
     <h1 class="flex justify-center text-3xl font-sans text-cisco_midnightblue">Soluções</h1>
-    <div class="grid grid-cols-4 gap-6 p-6 m-52 justify-start *:border *:border-cisco_darkgray *:rounded-xl *:py-2 *:px-10 *:flex *:flex-col *:justify-center *:items-center"> 
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-6 m-52 *:border *:border-cisco_darkgray *:rounded-xl *:py-2 *:px-10 *:flex *:flex-col *:justify-center *:items-center"> 
       <button on:click={() => window.location.href = 'https://fmc01.e2exp.local/ui/login'}>
         <img src="/icons/secure-firewall.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Secure Firewall
         </div>
       </button>
-      <button on:click={() => window.location.href = 'https://ise01.e2exp.local/admin/login.jsp'}>
+      <button on:click={() => window.location.href = 'https://ise01.e2exp.local/admin/login.jsp'} >
         <img src="/icons/ise.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Identity Service Engine
         </div>        
       </button>
-      <button on:click={() => window.location.href = ''}>
+      <button on:click={() => window.location.href = 'https://sign-on.security.cisco.com'}>
         <img src="/icons/endpoint.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Secure Endpoint
         </div>        
       </button>
-      <button on:click={() => window.location.href = 'https://ise01.e2exp.local/admin/login.jsp'}>
+      <button on:click={() => window.location.href = 'https://admin-14393a99.duosecurity.com/login?next=%2Fphones'}>
         <img src="/icons/duo.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Duo
@@ -95,7 +95,7 @@
           Cisco Secure Access
         </div>        
       </button>
-      <button on:click={() => window.location.href = 'https://login.sse.cisco.com/'}>
+      <button on:click={() => window.location.href = 'https://www.cisco.com/site/br/pt/products/security/secure-client/index.html'}>
         <img src="/icons/secure-client.svg" alt="" class="">
         <div class="text-sm text-cisco_skyblue">
           Cisco Secure Secure Client
